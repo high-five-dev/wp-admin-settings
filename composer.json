@@ -1,0 +1,25 @@
+{
+    "name": "high-five/wp-admin-settings",
+    "version": "0.0.1",
+    "description": "Easy way to add WordPress admin settings.",
+    "type": "project",
+    "minimum-stability": "dev",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "High Five",
+            "email": "info@high-five.dev",
+            "homepage": "https://www.high-five.dev"
+        }
+    ],
+    "support": {
+        "email": "webmaster@foursites.nl"
+    },
+    "require": {
+        "php": ">=7.2",
+        "high-five/wp-admin-pages": ">=0.0.1"
+    },
+    "autoload": {
+        "psr-4": {"HighFive\\WPAdminSettings\\": "src/"}
+    }
+}
