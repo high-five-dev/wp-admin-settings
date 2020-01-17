@@ -17,7 +17,7 @@
     },
     "require": {
         "php": ">=7.2",
-        "high-five/wp-admin-pages": ">=0.0.1"
+        "high-five/wp-admin-pages": "dev-master"
     },
     "autoload": {
         "psr-4": {"HighFive\\WPAdminSettings\\": "src/"}
